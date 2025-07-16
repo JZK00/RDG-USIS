@@ -14,7 +14,8 @@ Our developed ultrasound image simulation-guided minimally invasive procedure tr
 ## How to Start Convolutional Simulation Of Ultrasound
 <img width="450" alt="452a6e..." src="https://github.com/user-attachments/assets/691ee41b-b300-4b8a-99a7-8f6c873aa186"/>
 <img width="450" alt="a0ebd3..." src="https://github.com/user-attachments/assets/ddc890e6-f153-4f04-a64d-740460249d3e"/>
-卷积图像的生成需要输入：经过totalsegmentator分割的nii.gz格式的mask文件，并调用cov_img/nii_deal.py文件中的modify_mask_label函数进行预处理。
+
+The generation of convolutional images requires the following input: a nii.gz format mask file that has been segmented by totalsegmentator, and the modification_mask_label function in the cov_img/nii_deal.py file needs to be called for preprocessing.
 python cov_img/get_sim_us.py
 
 ## How to Start Project

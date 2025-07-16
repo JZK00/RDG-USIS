@@ -19,6 +19,8 @@ Install dependencies:
 
 pip install -r requirements.txt
 
+The project is only compatible with multi-GPU DDP mode for training.
+
 CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --master_port=12345 --nnodes=1 --nproc_per_node=4 train.py  --dataroot ./datasets/test --name test --model cycle_gan --use_distributed  --lambda_ssim 5
 
 ## Dataset

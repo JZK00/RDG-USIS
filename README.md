@@ -16,6 +16,7 @@ Our developed ultrasound image simulation-guided minimally invasive procedure tr
 <img width="450" alt="a0ebd3..." src="https://github.com/user-attachments/assets/ddc890e6-f153-4f04-a64d-740460249d3e"/>
 
 The generation of convolutional images requires the following input: a nii.gz format mask file that has been segmented by totalsegmentator, and the modification_mask_label function in the cov_img/nii_deal.py file needs to be called for preprocessing.
+
 python cov_img/get_sim_us.py
 
 ## How to Start Project

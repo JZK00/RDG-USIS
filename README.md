@@ -8,12 +8,13 @@ Here, we propose a Real-time, Dynamic, and highly Generalizable UltraSound Image
 
 The RDG-USIS:
 ![本地图片描述](Figures/Fig1.bmp)
-<img width="450" alt="452a6e..." src="https://github.com/user-attachments/assets/691ee41b-b300-4b8a-99a7-8f6c873aa186"/>
-<img width="450" alt="a0ebd3..." src="https://github.com/user-attachments/assets/ddc890e6-f153-4f04-a64d-740460249d3e"/>
 
 Our developed ultrasound image simulation-guided minimally invasive procedure training system integrates the proposed RDG-USIS algorithm. It generates high-quality ultrasound images from CT scans (see module indicated by the red circle). It supports real-time, dynamic alignment with other multimodal imaging data, significantly enhancing 3D spatial understanding and surgical accuracy during ultrasound-guided training. 
 
 ## How to Start Convolutional Simulation Of Ultrasound
+<img width="450" alt="452a6e..." src="https://github.com/user-attachments/assets/691ee41b-b300-4b8a-99a7-8f6c873aa186"/>
+<img width="450" alt="a0ebd3..." src="https://github.com/user-attachments/assets/ddc890e6-f153-4f04-a64d-740460249d3e"/>
+卷积图像的生成需要输入：经过totalsegmentator分割的nii.gz格式的mask文件，并调用cov_img/nii_deal.py文件中的modify_mask_label函数进行预处理。
 python cov_img/get_sim_us.py
 
 ## How to Start Project

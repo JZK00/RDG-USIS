@@ -2,8 +2,6 @@
 Real-Time, Dynamic, and Highly Generalizable Ultrasound Image Simulation-Guided Procedure  Training System for Musculoskeletal Minimally Invasive Treatment. 
 
 ## Introduction
-Citation: XXX
-
 Here, we propose a Real-time, Dynamic, and highly Generalizable UltraSound Image Simulation (RDG-USIS) algorithm, specifically designed to enhance training in minimally invasive procedures.
 
 The RDG-USIS:
@@ -34,4 +32,16 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --master_port=12345 --nnodes=1 --nproc_per
 
 ## Dataset
 After the article is accepted, we will open-source the high-quality US-CT dataset that we have designed and collected, which will have a positive impact on the community.
+
+If you find this repo useful for your research, please consider citing our papers:
+
+```bibtex
+@inproceedings{wang2025real,
+  title={Real-Time, Dynamic, and Highly Generalizable Ultrasound Image Simulation-Guided Procedure Training System for Musculoskeletal Minimally Invasive Treatment},
+  author={Wang, Xiandi and Jiang, Zekun and Tang, Mengqi and Han, Ying and Pu, Dan and Li, Kang},
+  booktitle={International Workshop on Human-AI Collaboration},
+  pages={35--43},
+  year={2025},
+  organization={Springer}
+}
 

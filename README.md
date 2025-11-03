@@ -33,6 +33,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --master_port=12345 --nnodes=1 --nproc_per
 ## Dataset
 After the article is accepted, we will open-source the high-quality US-CT dataset that we have designed and collected, which will have a positive impact on the community.
 
+## Citation
 If you find this repo useful for your research, please consider citing our papers:
 
 ```bibtex

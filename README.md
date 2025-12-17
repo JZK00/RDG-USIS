@@ -1,8 +1,8 @@
 # RDG-USIS
-Real-Time, Dynamic, and Highly Generalizable Ultrasound Image Simulation-Guided Procedure  Training System for Musculoskeletal Minimally Invasive Treatment. 
+Real-Time, Dynamic, and Highly Generalizable Ultrasound Image Simulation-Guided Procedure Training System for Musculoskeletal Minimally Invasive Treatment. 
 
 ## Introduction
-Here, we propose a Real-time, Dynamic, and highly Generalizable UltraSound Image Simulation (RDG-USIS) algorithm, specifically designed to enhance training in minimally invasive procedures.
+Here, we propose a Real-time, Dynamic, and highly Generalizable UltraSound Image Simulation (RDG-USIS) algorithm, specifically designed to enhance training in minimally invasive procedures. Based on the RDG-USIS model, we have also further designed and developed the Skill Transfer Training System for Musculoskeletal Minimally Invasive Treatment, utilizing cross-modality spatial mapping and Integration.
 
 The RDG-USIS:
 ![本地图片描述](Figures/Fig1.bmp)
@@ -44,5 +44,12 @@ If you find this repo useful for your research, please consider citing our paper
   pages={35--43},
   year={2025},
   organization={Springer}
+}
+@incollection{jiang2025skill,
+  title={Skill Transfer Training System for Musculoskeletal Minimally Invasive Treatment Based on Cross-modality Spatial Mapping and Integration},
+  author={Jiang, Zekun and Tang, Mengqi and Huang, Fangwen and Ren, Kechen and Liu, Yuhang and Li, Kang and Pu, Dan and Wang, Xiandi},
+  booktitle={Proceedings of the SIGGRAPH Asia 2025 Technical Communications},
+  pages={1--5},
+  year={2025}
 }
 
